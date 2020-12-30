@@ -1,0 +1,32 @@
+{
+  "name": "shogun",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.config.js",
+    "watch": "webpack --config webpack.config.js --watch"
+  },
+  "keywords": [],
+  "author": "Robert Bisovski",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "babel-loader": "^8.2.2",
+    "bootstrap": "^5.0.0-beta1",
+    "css-loader": "^5.0.1",
+    "file-loader": "^6.2.0",
+    "postcss": "^8.2.2",
+    "postcss-loader": "^4.1.0",
+    "sass": "^1.32.0",
+    "sass-loader": "^10.1.0",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.11.1",
+    "webpack-cli": "^4.3.0"
+  },
+  "dependencies": {
+    "deepmerge": "^4.2.2"
+  }
+}
