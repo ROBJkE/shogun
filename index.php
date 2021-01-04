@@ -1,3 +1,4 @@
-<?php
-    echo "Hello Slave";
-?>
+<?php get_header(); ?>
+
+
+<?php get_footer(); ?>

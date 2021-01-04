@@ -1,0 +1,21 @@
+{
+    "name": "robjke/shogun",
+    "description": "A lightweight Theme Framework for Wordpress",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Robert Bisovski",
+            "email": "robsenq@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Shogun\\": "core/"
+        }
+    }
+}
