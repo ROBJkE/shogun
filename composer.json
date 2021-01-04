@@ -1,7 +1,7 @@
 {
     "name": "robjke/shogun",
     "description": "A lightweight Theme Framework for Wordpress",
-    "type": "project",
+    "type": "library",
     "license": "MIT",
     "authors": [
         {
